@@ -1,6 +1,5 @@
 import hashlib
 import json
-
 import requests
 from time import time
 from flask import Flask, jsonify, request
