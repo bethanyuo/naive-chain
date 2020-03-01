@@ -4,6 +4,7 @@ import json, pyaes
 from Crypto.Cipher import AES
 
 
+
 # 1.1) Symmetric Encryption & Decryption
 
 message = 'exercise-cryptograpy'
