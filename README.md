@@ -46,10 +46,10 @@ We will use:
 
 ### HTTP Server
 With implemented REST API the user is able to interact with the node in the following ways: 
-* Command /blocks will make a get request and list all blocks in the existing blockchain 
-* Command /mineBlock will send a post request which will create a new block with a content given by the user, calculate the new block’s hash and add this new block to the blockchain. Then later it will broadcast a message to other peers. 
-* Command /peers will make a get request and take an array with existing peers. If there are no peers, we will receive an empty array. 
-* Command /addPeer will send a post request and connect peer to the given one.
+* Command `/blocks` will make a get request and list all blocks in the existing blockchain 
+* Command `/mineBlock` will send a post request which will create a new block with a content given by the user, calculate the new block’s hash and add this new block to the blockchain. Then later it will broadcast a message to other peers. 
+* Command `/peers` will make a get request and take an array with existing peers. If there are no peers, we will receive an empty array. 
+* Command `/addPeer` will send a post request and connect peer to the given one.
 
 The most straightforward way to control the node is with Curl: To get all blocks from the node enter: 
 ```bash
